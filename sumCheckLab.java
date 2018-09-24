@@ -1,11 +1,20 @@
 package com.partOne;
 
-//I import the Scanner class, as my program will require user input.
-
 import java.util.Scanner;
 
 public class sumCheckLab {
 
+	/*
+	 * Here I introduce the main() method. This triggers an instance of the JVM
+	 * and begins the execution of the method sumChecker().
+	 */
+	
+	public static void main (String [] args) {
+		
+		sumChecker();
+		
+	}
+	
 	/*
 	 * I have written the task of my program in a separate method from the
 	 * main() method, which I have defined as sumChecker().
@@ -18,6 +27,7 @@ public class sumCheckLab {
         Scanner scnr = new Scanner(System.in);
         
         //I prompt the user to enter the number of digits both test numbers will have.
+        
         System.out.println("Welcome to Grant Chirpus' fantabulous sum checker! Get ready to have some fun!"
 				+"\nWith just two numbers, I can perform some real computational magic! No joke!"
     			+"\n"
@@ -124,14 +134,5 @@ public class sumCheckLab {
 	
 	}
 
-	/*
-	 * Here I introduce the main() method. This triggers an instance of the JVM
-	 * and begins the execution of the method sumChecker().
-	 */
-	
-	public static void main (String [] args) {
-		
-		sumChecker();
-		
-	}
+
 }
