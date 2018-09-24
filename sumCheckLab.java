@@ -3,17 +3,6 @@ package com.partOne;
 import java.util.Scanner;
 
 public class sumCheckLab {
-
-	/*
-	 * Here I introduce the main() method. This triggers an instance of the JVM
-	 * and begins the execution of the method sumChecker().
-	 */
-	
-	public static void main (String [] args) {
-		
-		sumChecker();
-		
-	}
 	
 	/*
 	 * I have written the task of my program in a separate method from the
@@ -132,7 +121,16 @@ public class sumCheckLab {
         	System.exit(0);
         }		
 	
+	}	
+	
+	/*
+	 * Here I introduce the main() method. This triggers an instance of the JVM
+	 * and begins the execution of the method sumChecker().
+	 */
+	
+	public static void main (String [] args) {
+		
+		sumChecker();
+		
 	}
-
-
 }
